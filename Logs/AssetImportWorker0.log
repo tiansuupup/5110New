@@ -1,0 +1,1710 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'zh' Physical Memory: 32725 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/mao_h/Documents/GitHub/5110New
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+7118
+Successfully changed project path to: C:/Users/mao_h/Documents/GitHub/5110New
+C:/Users/mao_h/Documents/GitHub/5110New
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mao_h/Documents/GitHub/5110New/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1be1)
+    Vendor:   
+    VRAM:     8082 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002466 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 79.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.904 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2904ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (898ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (483ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006273 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.441 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1442ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1148ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (353ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1419 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.1 MB.
+System memory in use after: 71.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1864.
+Total: 4.597600 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.093300 ms MarkObjects: 4.017100 ms  DeleteObjects: 0.157100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Heureka/AssetHunter/Tutorial.pdf
+  artifactKey: Guid(857bb47b2b37ee248833a822e61c21c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Heureka/AssetHunter/Tutorial.pdf using Guid(857bb47b2b37ee248833a822e61c21c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bd4460d1cd4780620c8135f4ca0b20') in 0.037651 seconds 
+  Import took 0.041778 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1338ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1132ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (450ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1864.
+Total: 4.738800 ms (FindLiveObjects: 0.285200 ms CreateObjectMapping: 0.098800 ms MarkObjects: 4.297900 ms  DeleteObjects: 0.055000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1101ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (912ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (333ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1866.
+Total: 3.300100 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.070900 ms MarkObjects: 2.937000 ms  DeleteObjects: 0.069600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1273ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1091ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (328ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1868.
+Total: 4.099200 ms (FindLiveObjects: 0.731900 ms CreateObjectMapping: 0.345200 ms MarkObjects: 2.994100 ms  DeleteObjects: 0.026200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003415 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1283ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1067ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (426ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1870.
+Total: 3.486300 ms (FindLiveObjects: 0.144900 ms CreateObjectMapping: 0.041400 ms MarkObjects: 3.264200 ms  DeleteObjects: 0.034200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2091.534235 seconds.
+  path: Assets/Free
+  artifactKey: Guid(098d90a3641ff254c955059ab2f775a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free using Guid(098d90a3641ff254c955059ab2f775a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e3bd8a5f1376e9d3fa337e6edaad47') in 0.017052 seconds 
+  Import took 0.022167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.843909 seconds.
+  path: Assets/Free/Wooden Floor Pack
+  artifactKey: Guid(d41db9fd4ef867e4181acefb01bede53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack using Guid(d41db9fd4ef867e4181acefb01bede53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce42aec0b5e6d0a4f3f188798f48e2fe') in 0.009610 seconds 
+  Import took 0.013239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.601171 seconds.
+  path: Assets/Free/Wooden Floor Pack/Demo
+  artifactKey: Guid(047f9dacd80dd7b47bbc319f1965f5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free/Wooden Floor Pack/Demo using Guid(047f9dacd80dd7b47bbc319f1965f5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759f8c30418a1d6769c81f375bedeb78') in 0.009553 seconds 
+  Import took 0.013480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.297257 seconds.
+  path: Assets/Food Pack Mixed/Prefabs
+  artifactKey: Guid(06f92ecdf38199f4d8849a9b8c3d72f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Prefabs using Guid(06f92ecdf38199f4d8849a9b8c3d72f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b0e316084e8962620daac5f23335ec') in 0.011964 seconds 
+  Import took 0.015671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 212.030949 seconds.
+  path: Assets/Scenes/2.unity
+  artifactKey: Guid(26d4c0a97303ee24498154ae3b4ff36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2.unity using Guid(26d4c0a97303ee24498154ae3b4ff36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a41ecee9e83c8d0a3c950551d2238a') in 0.034503 seconds 
+  Import took 0.038476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.208902 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802e94a59aa5ee5c45ceb2dd63d150be') in 0.011098 seconds 
+  Import took 0.014443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.935568 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2a5ba62f1ca1ce0959317caf3b43aa') in 0.007312 seconds 
+  Import took 0.010857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.198630 seconds.
+  path: Assets/Scenes/2.unity
+  artifactKey: Guid(26d4c0a97303ee24498154ae3b4ff36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2.unity using Guid(26d4c0a97303ee24498154ae3b4ff36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4481020874e624b017289fbf9aa4baa0') in 0.007320 seconds 
+  Import took 0.011200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.011442 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f699ebefd7e7430e4aecc5f35483bf') in 0.005834 seconds 
+  Import took 0.009813 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003287 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.237 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1238ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1045ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1872.
+Total: 3.078800 ms (FindLiveObjects: 0.145400 ms CreateObjectMapping: 0.040300 ms MarkObjects: 2.845300 ms  DeleteObjects: 0.046400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005380 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1737ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1426ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (474ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (538ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1874.
+Total: 5.171200 ms (FindLiveObjects: 0.194500 ms CreateObjectMapping: 0.073900 ms MarkObjects: 4.877000 ms  DeleteObjects: 0.023300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 315.282826 seconds.
+  path: Assets/Scenes/2.unity
+  artifactKey: Guid(26d4c0a97303ee24498154ae3b4ff36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/2.unity using Guid(26d4c0a97303ee24498154ae3b4ff36a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18aa079bd2a9ca46b89712946f22267f') in 0.019279 seconds 
+  Import took 0.023287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9bf061cb29eb70e92f6ea8fe0e653c') in 0.006456 seconds 
+  Import took 0.010746 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.187 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1188ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (978ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.7 MB.
+System memory in use after: 70.8 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 3.370700 ms (FindLiveObjects: 0.179400 ms CreateObjectMapping: 0.049600 ms MarkObjects: 3.100100 ms  DeleteObjects: 0.039600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 606.864669 seconds.
+  path: Assets/Vilage_home_props/Samovar
+  artifactKey: Guid(ca4a62f8c4f831843bb4a103032ff4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vilage_home_props/Samovar using Guid(ca4a62f8c4f831843bb4a103032ff4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74012cf16863f638fc421c5a14ede3f1') in 0.014736 seconds 
+  Import took 0.018932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.130154 seconds.
+  path: Assets/Vilage_home_props/Samovar/Samovar.FBX
+  artifactKey: Guid(ce59000c1209a6847aff4876ece2b834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vilage_home_props/Samovar/Samovar.FBX using Guid(ce59000c1209a6847aff4876ece2b834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31efc52f309bc32a7a96ff8aa36406b8') in 0.182496 seconds 
+  Import took 0.185580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Vilage_home_props/Samovar/Samovar_shadowsmap.tga
+  artifactKey: Guid(fe04b021afa96bf4493f9989dad1147f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vilage_home_props/Samovar/Samovar_shadowsmap.tga using Guid(fe04b021afa96bf4493f9989dad1147f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3151966ed81f2a1cae1174b06e2ce274') in 0.208681 seconds 
+  Import took 0.212647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Vilage_home_props/Samovar/Samovar_MetallicSmoothness.tga
+  artifactKey: Guid(0405ca72809faf541ae4a0643f3189af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vilage_home_props/Samovar/Samovar_MetallicSmoothness.tga using Guid(0405ca72809faf541ae4a0643f3189af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2aa35716330bc284142d1b3a55971c') in 0.060316 seconds 
+  Import took 0.064875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Vilage_home_props/Samovar/Samovar_Normal.tga
+  artifactKey: Guid(761673b6a0b3c4745893cc9d4dca7fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vilage_home_props/Samovar/Samovar_Normal.tga using Guid(761673b6a0b3c4745893cc9d4dca7fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbd8faaf663caab2fbe0a2f9253216f') in 0.043472 seconds 
+  Import took 0.047642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Vilage_home_props/Samovar/Samovar_AlbedoTransparency.tga
+  artifactKey: Guid(eba3af68abe85544ca316763fda6646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vilage_home_props/Samovar/Samovar_AlbedoTransparency.tga using Guid(eba3af68abe85544ca316763fda6646a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142adaa80e09c8a8d08bc97f4c492914') in 0.100124 seconds 
+  Import took 0.104493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Vilage_home_props/Samovar/Samovar_normalsmap(3d max baked).tga
+  artifactKey: Guid(3d2a1db1db548b64da5479aa1d58e0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vilage_home_props/Samovar/Samovar_normalsmap(3d max baked).tga using Guid(3d2a1db1db548b64da5479aa1d58e0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16134674bfdd9e377bd4f5e1643a3401') in 0.052590 seconds 
+  Import took 0.057631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.356531 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Almonds.fbx
+  artifactKey: Guid(03e31ea610078dd4496bc68434f5c45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Almonds.fbx using Guid(03e31ea610078dd4496bc68434f5c45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7a478f7521e90166a5426fbf619923') in 0.160103 seconds 
+  Import took 0.163904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Toon Furniture/Models/Kitchen_Cabinet_1.fbx
+  artifactKey: Guid(4a357a7f02c7c8b468d4d038e61ecd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Kitchen_Cabinet_1.fbx using Guid(4a357a7f02c7c8b468d4d038e61ecd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4798a7143ec6342e43c4289537ab84') in 0.052371 seconds 
+  Import took 0.055640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Toon Furniture/Models/Couch_1.fbx
+  artifactKey: Guid(ac59d41bde6224c4089a0cfbf902d645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Couch_1.fbx using Guid(ac59d41bde6224c4089a0cfbf902d645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2ea3037f618c094977db8b08f7d819d') in 0.033289 seconds 
+  Import took 0.036413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Cheese.fbx
+  artifactKey: Guid(ac178adc44d1a8342b828a2bb154a083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Cheese.fbx using Guid(ac178adc44d1a8342b828a2bb154a083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a727f565ef068ca8c773ebf2eeef689') in 0.045295 seconds 
+  Import took 0.048373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Toon Furniture/Models/Counter_1.fbx
+  artifactKey: Guid(aaeedb2a45100ea4091935025fdd110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Counter_1.fbx using Guid(aaeedb2a45100ea4091935025fdd110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2280810ce25b5264b0ee8b7245a17071') in 0.040206 seconds 
+  Import took 0.043522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Food Pack Mixed/Meshes/EnergyDrink.fbx
+  artifactKey: Guid(6081269eb47af18418c00349c995d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/EnergyDrink.fbx using Guid(6081269eb47af18418c00349c995d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77137531fab479c3b7fddb3537d212c') in 0.046287 seconds 
+  Import took 0.049383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Food Pack Mixed/Meshes/OliveOil.fbx
+  artifactKey: Guid(7efe9a6b8f0200349bf250d45ac41825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/OliveOil.fbx using Guid(7efe9a6b8f0200349bf250d45ac41825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486f4002b2115d6c9221f7e9ee13921c') in 0.059988 seconds 
+  Import took 0.063045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Food Pack Mixed/Meshes/garlic.fbx
+  artifactKey: Guid(bb566780844e6474d83caab1d7f4b4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/garlic.fbx using Guid(bb566780844e6474d83caab1d7f4b4bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fa2a57a0b17250772aa8027d5c5cbf') in 0.066573 seconds 
+  Import took 0.070818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Carrots.fbx
+  artifactKey: Guid(e6a64120721d9414eb57323cb227502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Carrots.fbx using Guid(e6a64120721d9414eb57323cb227502e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9d51ec7bcfb8781f9bb789b91fd4e4') in 0.100163 seconds 
+  Import took 0.103185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Toon Furniture/Models/House_Plant_1_1.fbx
+  artifactKey: Guid(93b7804c0d2944540afe34ed14ff76d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/House_Plant_1_1.fbx using Guid(93b7804c0d2944540afe34ed14ff76d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00c4734dd1e45b6e6291c0de2838260') in 0.064054 seconds 
+  Import took 0.067130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Toon Furniture/Models/Coffee_Table_2.fbx
+  artifactKey: Guid(5482ee8af0d724341b96cd2c062f6baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Coffee_Table_2.fbx using Guid(5482ee8af0d724341b96cd2c062f6baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9412ce149aedb46e1f90425445e064b') in 0.044124 seconds 
+  Import took 0.047769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Toon Furniture/Materials/Bed_2.mat
+  artifactKey: Guid(23661dce65b8f53478b9b15db1ae1d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Bed_2.mat using Guid(23661dce65b8f53478b9b15db1ae1d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269b562150f4c34bc8cce6f2c0f16f72') in 0.034311 seconds 
+  Import took 0.039612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Food Pack Mixed/Materials/BrownSugar.mat
+  artifactKey: Guid(03f50ce276edf2841a3d3ea4791d0978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/BrownSugar.mat using Guid(03f50ce276edf2841a3d3ea4791d0978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61bb9066c2d53e223e1be5da7782df59') in 0.028480 seconds 
+  Import took 0.035120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Toon Furniture/Materials/Couch_2.mat
+  artifactKey: Guid(d983243af5da64f49a93a7a2ec62f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Couch_2.mat using Guid(d983243af5da64f49a93a7a2ec62f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab0dd6e55e27f8cf779c9880d77ea4c') in 0.029827 seconds 
+  Import took 0.035351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Food Pack Mixed/Materials/Cheese.mat
+  artifactKey: Guid(a67d99429c0b7a14695eb831b8ba71d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/Cheese.mat using Guid(a67d99429c0b7a14695eb831b8ba71d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae93732c3e70a1e8a3aba2199b0c77ed') in 0.034312 seconds 
+  Import took 0.038392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Food Pack Mixed/Meshes/BeerBottle.fbx
+  artifactKey: Guid(53340ba17618e5d4fa6794a544d253eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/BeerBottle.fbx using Guid(53340ba17618e5d4fa6794a544d253eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4a75b25194ba39bebc6b60343b1fe0') in 0.054921 seconds 
+  Import took 0.058889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Toon Furniture/Materials/Counter_3.mat
+  artifactKey: Guid(8133c53ca4ed0c54c82be79fc0a4cec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Counter_3.mat using Guid(8133c53ca4ed0c54c82be79fc0a4cec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cda47505e7c63e1d967564c5b4aece3') in 0.023808 seconds 
+  Import took 0.027186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Toon Furniture/Materials/Chair_3.mat
+  artifactKey: Guid(9ef20c6d6021deb41a6df69d367d0199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Chair_3.mat using Guid(9ef20c6d6021deb41a6df69d367d0199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92373a746b551b13c204884d1ba8b26b') in 0.020319 seconds 
+  Import took 0.024661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Food Pack Mixed/Materials/ChickenSkin.mat
+  artifactKey: Guid(2e8667f67c7bba94b971abc96796cd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/ChickenSkin.mat using Guid(2e8667f67c7bba94b971abc96796cd6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24cbd18b604e89fcae9c668a2a390e5') in 0.021695 seconds 
+  Import took 0.027337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Capsicums.fbx
+  artifactKey: Guid(fcf8f31ef53e31d4d81bc6cd15064de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Capsicums.fbx using Guid(fcf8f31ef53e31d4d81bc6cd15064de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300ed612e00bdaf1854664597f1bb726') in 0.088600 seconds 
+  Import took 0.092448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Mushrooms.fbx
+  artifactKey: Guid(2456fcea440f0884e87dede158493993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Mushrooms.fbx using Guid(2456fcea440f0884e87dede158493993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354a1c919522e52834f73af9c7b86a0c') in 0.082656 seconds 
+  Import took 0.085966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Toon Furniture/Models/Books_1.fbx
+  artifactKey: Guid(02ca65ab740714a419148b75fac70719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Books_1.fbx using Guid(02ca65ab740714a419148b75fac70719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863edecb18be2969cd7810386bff0c16') in 0.063492 seconds 
+  Import took 0.067220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/old Kitchen/Chair/Materials/Chair.mat
+  artifactKey: Guid(6beaf945927ee8545918be3ae6142e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/old Kitchen/Chair/Materials/Chair.mat using Guid(6beaf945927ee8545918be3ae6142e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1f3df282c32dde2dea810d9a93454e') in 0.019894 seconds 
+  Import took 0.022712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Toon Furniture/Materials/CoffeTable_3.mat
+  artifactKey: Guid(bba0acb555465444a943f2e809f686f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/CoffeTable_3.mat using Guid(bba0acb555465444a943f2e809f686f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f1b9d9dc2073a09e70f4385a105913') in 0.019881 seconds 
+  Import took 0.022888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Food Pack Mixed/Materials/Cap.mat
+  artifactKey: Guid(d40550c3e9f0da84b8ffe39802b052cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/Cap.mat using Guid(d40550c3e9f0da84b8ffe39802b052cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db25fcbeb16d4ebd0586912887564dc2') in 0.018049 seconds 
+  Import took 0.022106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Food Pack Mixed/Materials/Carrot.mat
+  artifactKey: Guid(550b6d87831abfb47a647b7092c47571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/Carrot.mat using Guid(550b6d87831abfb47a647b7092c47571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3beea94612ba3bc11d4be182d45204f9') in 0.040385 seconds 
+  Import took 0.044090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Toon Furniture/Models/Counter_4.fbx
+  artifactKey: Guid(72616aa566640fa4498901aa2e09543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Counter_4.fbx using Guid(72616aa566640fa4498901aa2e09543e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9406bd9e4fee9a3d73beb017d8afd354') in 0.107837 seconds 
+  Import took 0.111137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Food Pack Mixed/Meshes/MincedBeef.fbx
+  artifactKey: Guid(b5c58d16a3531204c9acfd8f88fe4f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/MincedBeef.fbx using Guid(b5c58d16a3531204c9acfd8f88fe4f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ee5de0ba2d195e1fd295d8bf8cc306') in 0.055682 seconds 
+  Import took 0.059749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Toon Furniture/Materials/BookCase_1.mat
+  artifactKey: Guid(15faa09740202bf45a908fce8a7be3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/BookCase_1.mat using Guid(15faa09740202bf45a908fce8a7be3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688327e90859878b1d69598908620a7a') in 0.017144 seconds 
+  Import took 0.020265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Toon Furniture/Materials/Chair_4.mat
+  artifactKey: Guid(a39c14be04b8abd45823d8b5b1b339b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Chair_4.mat using Guid(a39c14be04b8abd45823d8b5b1b339b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749d3352de387345d7487f186fac605f') in 0.018226 seconds 
+  Import took 0.021683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Toon Furniture/Models/Coffee_Table_4.fbx
+  artifactKey: Guid(8b77ab8a65e9c9e4ba013ba2868ef6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Coffee_Table_4.fbx using Guid(8b77ab8a65e9c9e4ba013ba2868ef6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e852242fb953b71b47648e729e0860fb') in 0.044651 seconds 
+  Import took 0.049485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Toon Furniture/Models/Counter_2.fbx
+  artifactKey: Guid(83bfbbc6ac9032c46a97d37cbca3d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Counter_2.fbx using Guid(83bfbbc6ac9032c46a97d37cbca3d895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f173578299c3ef1c2773e28aa0863c61') in 0.085138 seconds 
+  Import took 0.095613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001981 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Meat.fbx
+  artifactKey: Guid(7da3ba93a27b2ff44a529f098a09ed75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Meat.fbx using Guid(7da3ba93a27b2ff44a529f098a09ed75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74f4f2706e4b4bc41c8084b787ab84d') in 0.091550 seconds 
+  Import took 0.096836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Toon Furniture/Materials/Couch_1.mat
+  artifactKey: Guid(1282aac839cf37b45ba2f1f26e5aa091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Couch_1.mat using Guid(1282aac839cf37b45ba2f1f26e5aa091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facb8a4403235f2185553c4c6ed07830') in 0.030347 seconds 
+  Import took 0.034265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Food Pack Mixed/Materials/CapsicumRed.mat
+  artifactKey: Guid(68fda1cb16b9f6d40b4e7a16d667240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/CapsicumRed.mat using Guid(68fda1cb16b9f6d40b4e7a16d667240b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292ef0c5b7055280ca282ef0147f56e8') in 0.038603 seconds 
+  Import took 0.044262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Food Pack Mixed/Materials/CoffeeBean.mat
+  artifactKey: Guid(f4c5971547c23d04db54fba6921d40c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/CoffeeBean.mat using Guid(f4c5971547c23d04db54fba6921d40c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ef01a3ddc80d5ec4d056749f74a92b') in 0.031597 seconds 
+  Import took 0.038694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Clipboard/Materials/Board.mat
+  artifactKey: Guid(a8150700d2daa4f438927d1bf99ec003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Materials/Board.mat using Guid(a8150700d2daa4f438927d1bf99ec003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aec9d63e98e95d74988d3c7cbcfd934') in 0.039283 seconds 
+  Import took 0.045144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006158 seconds.
+  path: Assets/Food Pack Mixed/Materials/Almond.mat
+  artifactKey: Guid(c26f8ad4c83ea104d9b5777aba3263ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/Almond.mat using Guid(c26f8ad4c83ea104d9b5777aba3263ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63dd4e5da41279c6ac781de67e796a1') in 0.073543 seconds 
+  Import took 0.080825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Food Pack Mixed/Materials/DriedYeast.mat
+  artifactKey: Guid(e205381bb51232b40aa432101d478034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/DriedYeast.mat using Guid(e205381bb51232b40aa432101d478034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30153017a9cf8eadf380cf2d6686199') in 0.062567 seconds 
+  Import took 0.070760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Toon Furniture/Models/Coffee_Table_1.fbx
+  artifactKey: Guid(844fae422a50aab4f9e8d285bad1c241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Coffee_Table_1.fbx using Guid(844fae422a50aab4f9e8d285bad1c241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f930a55df22684189b369741656920f6') in 0.076142 seconds 
+  Import took 0.081277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Food Pack Mixed/Materials/BlueBerries.mat
+  artifactKey: Guid(7c9e29d609f43264cbd58ffbabd0d3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/BlueBerries.mat using Guid(7c9e29d609f43264cbd58ffbabd0d3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2783db9a5a1ca3c62bece4b78953177') in 0.057277 seconds 
+  Import took 0.062288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Food Pack Mixed/Materials/ChiliPowder.mat
+  artifactKey: Guid(7eeb62ce16d34c54cb6d019c1fe56769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/ChiliPowder.mat using Guid(7eeb62ce16d34c54cb6d019c1fe56769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a977b549bcd286fae7816a8b3746e025') in 0.052191 seconds 
+  Import took 0.057451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Toon Furniture/Materials/DecorativeBooks_1.mat
+  artifactKey: Guid(761ca3351a82bc94ba96936c37084ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/DecorativeBooks_1.mat using Guid(761ca3351a82bc94ba96936c37084ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e294d4ea355fb8131d1c081e070c2fc2') in 0.026713 seconds 
+  Import took 0.031020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Toon Furniture/Models/Chair_1.fbx
+  artifactKey: Guid(fafae49f08dbf0b4c82fbf9d5efda973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_1.fbx using Guid(fafae49f08dbf0b4c82fbf9d5efda973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4646509ed7153d3eb575badcd42b3385') in 0.046623 seconds 
+  Import took 0.050537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Toon Furniture/Materials/Chair_7.mat
+  artifactKey: Guid(a083ccdcd9975c548846918390de90ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Chair_7.mat using Guid(a083ccdcd9975c548846918390de90ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005f06f6af1b14496490f20fb74bbf72') in 0.029436 seconds 
+  Import took 0.033651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Food Pack Mixed/Materials/Egg.mat
+  artifactKey: Guid(94bf9b71af013f14ba935e6f0a0d3293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/Egg.mat using Guid(94bf9b71af013f14ba935e6f0a0d3293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20259947b3cd8af724a161393a5ec965') in 0.038126 seconds 
+  Import took 0.042170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Food Pack Mixed/Meshes/plate.fbx
+  artifactKey: Guid(21117a1e270ae3843a41032b80b53b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/plate.fbx using Guid(21117a1e270ae3843a41032b80b53b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488107e08182bbadf2a96097f0963b3d') in 0.049757 seconds 
+  Import took 0.054059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Toon Furniture/Materials/Bed_1_1.mat
+  artifactKey: Guid(a23f193da264873409fcb5b9edda3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Bed_1_1.mat using Guid(a23f193da264873409fcb5b9edda3d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb4b04c6447275560f157c5b05727d3') in 0.026301 seconds 
+  Import took 0.031351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Potato.fbx
+  artifactKey: Guid(46db98df67a47854fa3429f37537d92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Potato.fbx using Guid(46db98df67a47854fa3429f37537d92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65e0db08ec77e1ee02de49f5aa5af13') in 0.073495 seconds 
+  Import took 0.077291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Toon Furniture/Materials/Chair_9.mat
+  artifactKey: Guid(35f6412b7d0f22341b053bad4871ce4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Chair_9.mat using Guid(35f6412b7d0f22341b053bad4871ce4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f6491dfc05ed0839a1bc41275d9157') in 0.026775 seconds 
+  Import took 0.031114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Food Pack Mixed/Materials/Chocolate.mat
+  artifactKey: Guid(3f078d5c9fc97be4d818430bd713e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/Chocolate.mat using Guid(3f078d5c9fc97be4d818430bd713e51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6df29b4770953ad992bbdfee3453d4a') in 0.023484 seconds 
+  Import took 0.027494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Toon Furniture/Materials/Ball_1_1.mat
+  artifactKey: Guid(bc571f4d55bfe8946a7f706439a53a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Ball_1_1.mat using Guid(bc571f4d55bfe8946a7f706439a53a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e756ecf19d72d1b0653e91055a5781e5') in 0.020724 seconds 
+  Import took 0.024185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Food Pack Mixed/Materials/Banana.mat
+  artifactKey: Guid(44b3dab97ba9b9b42b0463c3eaaf929c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/Banana.mat using Guid(44b3dab97ba9b9b42b0463c3eaaf929c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6ad23739f2f4c8fbfbdc24dbe1f50b') in 0.036611 seconds 
+  Import took 0.040955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Toon Furniture/Models/Chair_2.fbx
+  artifactKey: Guid(0c18f0ffd4318a149bd680cdf60d0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_2.fbx using Guid(0c18f0ffd4318a149bd680cdf60d0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40b20de908bec643776cda87d5a143c') in 0.059540 seconds 
+  Import took 0.065777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000987 seconds.
+  path: Assets/Food Pack Mixed/Materials/CanCap.mat
+  artifactKey: Guid(17aa30d6af8e8664a82c0fbc89678bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/CanCap.mat using Guid(17aa30d6af8e8664a82c0fbc89678bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5919819792a76489c577040bed4f0767') in 0.053065 seconds 
+  Import took 0.060992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Food Pack Mixed/Materials/Chips.mat
+  artifactKey: Guid(511d8d597c56b9d4fbd8ef1770aa5bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/Chips.mat using Guid(511d8d597c56b9d4fbd8ef1770aa5bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bab08e00803b30949b6da47ffaf7a20') in 0.030279 seconds 
+  Import took 0.034017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Toon Furniture/Models/Ball_1_1.fbx
+  artifactKey: Guid(77ac052cdde4bce4b9c521de187308df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Ball_1_1.fbx using Guid(77ac052cdde4bce4b9c521de187308df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da17de6d9f2a0ff2635c3b4e906ef9f4') in 0.033701 seconds 
+  Import took 0.040280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Toon Furniture/Models/Chair_9.fbx
+  artifactKey: Guid(7eb169ca98be6744db6423d236b0e90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_9.fbx using Guid(7eb169ca98be6744db6423d236b0e90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26bfce9d5e7b0c7a740d0befbc46eef') in 0.057449 seconds 
+  Import took 0.062278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Toon Furniture/Models/headboard_1.fbx
+  artifactKey: Guid(22594f653b29cb2488a78553895e4d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/headboard_1.fbx using Guid(22594f653b29cb2488a78553895e4d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75979df2f626de3e92db4013ca0e0d6d') in 0.057559 seconds 
+  Import took 0.061636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Toon Furniture/Materials/Counter_2.mat
+  artifactKey: Guid(0261e0d39029378409cd6ccb24d17a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Counter_2.mat using Guid(0261e0d39029378409cd6ccb24d17a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2cdf69f4ffccbd3f47b47375ad342a') in 0.023405 seconds 
+  Import took 0.027117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Cherries.fbx
+  artifactKey: Guid(254f2719e16485141aa3bd49dc2d0cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Cherries.fbx using Guid(254f2719e16485141aa3bd49dc2d0cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270c9fe6ea2eace7002b0567ea04fd24') in 0.062942 seconds 
+  Import took 0.065967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Toon Furniture/Materials/Chair_6.mat
+  artifactKey: Guid(b0cb6d5647672b541a5f641672a0cc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Chair_6.mat using Guid(b0cb6d5647672b541a5f641672a0cc18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801ba75b363aa61479081b4df1444fd2') in 0.022745 seconds 
+  Import took 0.027696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Toon Furniture/Materials/BookCase_2.mat
+  artifactKey: Guid(d0088e45804523549867166fd4706b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/BookCase_2.mat using Guid(d0088e45804523549867166fd4706b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a27c738f747aec0fad20f481759da4') in 0.023137 seconds 
+  Import took 0.027831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Toon Furniture/Materials/CoffeTable_4.mat
+  artifactKey: Guid(3ddc923c1a3527c4f84a7050af679b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/CoffeTable_4.mat using Guid(3ddc923c1a3527c4f84a7050af679b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321811c5dbbcb94bbe1210e9b9f0237a') in 0.024914 seconds 
+  Import took 0.028558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Food Pack Mixed/Materials/Butter.mat
+  artifactKey: Guid(11ce49117f2fe0642b2afe5a95b2291e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/Butter.mat using Guid(11ce49117f2fe0642b2afe5a95b2291e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8335100a56db4a82d1dbbb4c631fa1e') in 0.017006 seconds 
+  Import took 0.021730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Food Pack Mixed/Materials/Bowl.mat
+  artifactKey: Guid(3f70791cdd94920439641ad670cdee9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/Bowl.mat using Guid(3f70791cdd94920439641ad670cdee9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa657aefdaefce305222f1abd19a7529') in 0.020119 seconds 
+  Import took 0.024802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Toon Furniture/Materials/Cooker_1.mat
+  artifactKey: Guid(278ceeecf207b8e44bf1caa9ab768075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Cooker_1.mat using Guid(278ceeecf207b8e44bf1caa9ab768075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d6ab60d9a8b4fa3472378819df374a4') in 0.025444 seconds 
+  Import took 0.031693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Toon Furniture/Models/Chair_6.fbx
+  artifactKey: Guid(b2f590637bb1b5044877c0b3e9db9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_6.fbx using Guid(b2f590637bb1b5044877c0b3e9db9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a190b4487be2022a25b00ec6546c55c') in 0.033454 seconds 
+  Import took 0.038635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Flour.fbx
+  artifactKey: Guid(8e0b0ecfa1aea52488c950a72f443bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Flour.fbx using Guid(8e0b0ecfa1aea52488c950a72f443bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd53ac8fe057b29c2a87218a27417ba9') in 0.060047 seconds 
+  Import took 0.063314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Toon Furniture/Materials/CoffeTable_2.mat
+  artifactKey: Guid(1b65b2b3727708e4da4d8a95d568cb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/CoffeTable_2.mat using Guid(1b65b2b3727708e4da4d8a95d568cb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6577ace011eccf6a9cc32833d8dcda') in 0.023832 seconds 
+  Import took 0.028093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Toon Furniture/Models/Decoration_Books_1_1.fbx
+  artifactKey: Guid(e287253ea90ccd04fb310bdbe13c1550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Decoration_Books_1_1.fbx using Guid(e287253ea90ccd04fb310bdbe13c1550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108646ae7cb0fa0d4bb8b6c5d8893d6d') in 0.030713 seconds 
+  Import took 0.034351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Coffee Beans.fbx
+  artifactKey: Guid(06e1fe92faa23824d8c4bd5e82a62d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Coffee Beans.fbx using Guid(06e1fe92faa23824d8c4bd5e82a62d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96453852e9c9b48ad2ce708a60208d90') in 0.082478 seconds 
+  Import took 0.086223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Food Pack Mixed/Materials/CapsicumGreen.mat
+  artifactKey: Guid(836d710b2a0fc104882cfec4b1a7ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/CapsicumGreen.mat using Guid(836d710b2a0fc104882cfec4b1a7ec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5fbb267f1d139f93d0a2bd18c4c370') in 0.031682 seconds 
+  Import took 0.035996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Bowl.fbx
+  artifactKey: Guid(3a45114cc17eb34449796839cf6f0a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Bowl.fbx using Guid(3a45114cc17eb34449796839cf6f0a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d36c37998bb35e396d7c809324bbae') in 0.019344 seconds 
+  Import took 0.022198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Toon Furniture/Materials/Chair_8.mat
+  artifactKey: Guid(e45f8df08739d7943b5b19c2fd4dfcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Chair_8.mat using Guid(e45f8df08739d7943b5b19c2fd4dfcb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaaed0872c6eaea1a8282564131ce41') in 0.021289 seconds 
+  Import took 0.024922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Toon Furniture/Models/Couch_2.fbx
+  artifactKey: Guid(3942771a39e29d24c9d6ed16822a0104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Couch_2.fbx using Guid(3942771a39e29d24c9d6ed16822a0104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78c345de1629d1c0bd20b67da7e8f39') in 0.030380 seconds 
+  Import took 0.033740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Peanuts.fbx
+  artifactKey: Guid(0799666af6a17364298f9d10a74a76f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Peanuts.fbx using Guid(0799666af6a17364298f9d10a74a76f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91e1317884d5080939e910a37ee6fa6') in 0.053585 seconds 
+  Import took 0.056485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Banana.fbx
+  artifactKey: Guid(c8e00729a02fc2445874fdd6f59c37c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Banana.fbx using Guid(c8e00729a02fc2445874fdd6f59c37c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228509e5c012bbb38c8a9c629c5b11eb') in 0.055711 seconds 
+  Import took 0.058636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Toon Furniture/Models/Chair_7.fbx
+  artifactKey: Guid(e26192968d537f143a47e72dfefb548f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_7.fbx using Guid(e26192968d537f143a47e72dfefb548f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04023ac3b62aa8ff5062fab85869d719') in 0.030923 seconds 
+  Import took 0.033836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Toon Furniture/Models/Chair_8.fbx
+  artifactKey: Guid(b2d48f69e426f3c41b473408129c689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_8.fbx using Guid(b2d48f69e426f3c41b473408129c689b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f4c5d3d691c03e9143a0b2ffeb1f66') in 0.024887 seconds 
+  Import took 0.027705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Toon Furniture/Materials/Counter_1.mat
+  artifactKey: Guid(b1ac97309f9bfea41b01f0b7ea373b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Counter_1.mat using Guid(b1ac97309f9bfea41b01f0b7ea373b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b211814a7509d2b4e5b82d632ea9c92') in 0.015550 seconds 
+  Import took 0.018781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Toon Furniture/Models/Counter_2_1.fbx
+  artifactKey: Guid(ae9314f65922b7b42b043064aeaaa155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Counter_2_1.fbx using Guid(ae9314f65922b7b42b043064aeaaa155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67afc57a90b46252c8a0b1d88053561') in 0.045506 seconds 
+  Import took 0.048653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Toon Furniture/Materials/Couch_3.mat
+  artifactKey: Guid(9614076bfdfc43344b1bdce22cec26ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Couch_3.mat using Guid(9614076bfdfc43344b1bdce22cec26ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4783dea34b4bfd8ed7bc9dc49b3a4b') in 0.021506 seconds 
+  Import took 0.027398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Food Pack Mixed/Materials/CreamCheese.mat
+  artifactKey: Guid(0c2619b37bef10a44a959c0297857ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/CreamCheese.mat using Guid(0c2619b37bef10a44a959c0297857ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838ea5dbdfdd505424b0b7ab9b8cb219') in 0.034598 seconds 
+  Import took 0.039573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Food Pack Mixed/Meshes/ButterPlate.fbx
+  artifactKey: Guid(31879f2c7dc8bc9478db6f00182b3c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/ButterPlate.fbx using Guid(31879f2c7dc8bc9478db6f00182b3c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308226a70504233f21ba39686a3cbb41') in 0.038320 seconds 
+  Import took 0.041569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Food Pack Mixed/Materials/CerealBox.mat
+  artifactKey: Guid(b5d44a7f108eecd419b061989ac6b068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/CerealBox.mat using Guid(b5d44a7f108eecd419b061989ac6b068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fbb62f0fe0573bba0dc15794d79ca5') in 0.016728 seconds 
+  Import took 0.021173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Food Pack Mixed/Materials/Cherries.mat
+  artifactKey: Guid(00780f48aaef5b54ca9ac35fe5804409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/Cherries.mat using Guid(00780f48aaef5b54ca9ac35fe5804409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c14cc8faadae3e4bd236df52f68310') in 0.032783 seconds 
+  Import took 0.036571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Toon Furniture/Models/Chair_4.fbx
+  artifactKey: Guid(f701747214874ac46a0c4ac184b53cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_4.fbx using Guid(f701747214874ac46a0c4ac184b53cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6154babf1e591bd2241e4ea33fe9209') in 0.035323 seconds 
+  Import took 0.038917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Toon Furniture/Materials/Chair_2.mat
+  artifactKey: Guid(48e03a04f4b2d814b9ce35c219f30ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Chair_2.mat using Guid(48e03a04f4b2d814b9ce35c219f30ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea800110166e0ee4229c6f7b6ba838d5') in 0.017843 seconds 
+  Import took 0.021014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Food Pack Mixed/Meshes/JuicePack.fbx
+  artifactKey: Guid(049d662fb1301c74e99bffe685bc6b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/JuicePack.fbx using Guid(049d662fb1301c74e99bffe685bc6b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745e85a6618a145159cf59bdcadcc4be') in 0.079206 seconds 
+  Import took 0.082913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Food Pack Mixed/Meshes/CerealBox.fbx
+  artifactKey: Guid(a92fd95f7bd4407489bad6082f018ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/CerealBox.fbx using Guid(a92fd95f7bd4407489bad6082f018ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0593fc983d49f9646cbc38c5a00b44') in 0.049686 seconds 
+  Import took 0.053116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Food Pack Mixed/Materials/CapsicumOrange.mat
+  artifactKey: Guid(1fd0a85d084450343bdcb18975bb5766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/CapsicumOrange.mat using Guid(1fd0a85d084450343bdcb18975bb5766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f363e0261870428fedd094c503afca') in 0.031806 seconds 
+  Import took 0.034672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Toon Furniture/Materials/Chair_1.mat
+  artifactKey: Guid(d45f3a5ed658dd94c84d67c87ca91578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Chair_1.mat using Guid(d45f3a5ed658dd94c84d67c87ca91578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e924c09d272744e606c049b4003398e3') in 0.017355 seconds 
+  Import took 0.020599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Toon Furniture/Models/Couch_3.fbx
+  artifactKey: Guid(02e5269d0ab9fe64ca9bdff1d9cf8101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Couch_3.fbx using Guid(02e5269d0ab9fe64ca9bdff1d9cf8101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e7ee3003d8a6a1991851bbd4cd5c0d') in 0.031307 seconds 
+  Import took 0.034527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Toon Furniture/Models/Coffee_Table_3.fbx
+  artifactKey: Guid(45276210d7d92ae439d4f9ba0fd6f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Coffee_Table_3.fbx using Guid(45276210d7d92ae439d4f9ba0fd6f6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497e2f61f67683d066456c4bc851cb0d') in 0.029220 seconds 
+  Import took 0.032521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Onion.fbx
+  artifactKey: Guid(2ea2577003f246d49939e8382c6a68fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Onion.fbx using Guid(2ea2577003f246d49939e8382c6a68fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1c2c547b91847db7030293990cc4f22') in 0.053459 seconds 
+  Import took 0.056846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Milk.fbx
+  artifactKey: Guid(732060d1b15c97f4daf1ca806575cd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Milk.fbx using Guid(732060d1b15c97f4daf1ca806575cd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8624c049828bc9f0f4a8e5fe87952c5') in 0.096448 seconds 
+  Import took 0.100468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Toon Furniture/Materials/Books_1.mat
+  artifactKey: Guid(a792c98929d502543971d5123dd91d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Books_1.mat using Guid(a792c98929d502543971d5123dd91d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481a20630e30ee36ca02f6cac932c3fb') in 0.014217 seconds 
+  Import took 0.019174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Toon Furniture/Materials/Chair_5.mat
+  artifactKey: Guid(7c6c4fc66a1ed9a4eb7458f3563eda63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Chair_5.mat using Guid(7c6c4fc66a1ed9a4eb7458f3563eda63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32041db3bf6d179ab25097e9e27d3da') in 0.022104 seconds 
+  Import took 0.025319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Food Pack Mixed/Meshes/BlueBerries.fbx
+  artifactKey: Guid(14f42e4fa9ed4ff4188f790ba6fe1468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/BlueBerries.fbx using Guid(14f42e4fa9ed4ff4188f790ba6fe1468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5145a85511c5ecd7e13a25a9169368') in 0.075435 seconds 
+  Import took 0.079514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Food Pack Mixed/Materials/EnergyDrink.mat
+  artifactKey: Guid(bee68d7a9fb9fcc48af3cad4407f05a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/EnergyDrink.mat using Guid(bee68d7a9fb9fcc48af3cad4407f05a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00245440714bf3b1e6b4162f5354c833') in 0.019102 seconds 
+  Import took 0.022252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Food Pack Mixed/Meshes/GarlicCloves.fbx
+  artifactKey: Guid(10eb3d01c5a83f7488d8ec4e2f9cdd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/GarlicCloves.fbx using Guid(10eb3d01c5a83f7488d8ec4e2f9cdd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e56bb8af1a27f3128b8e9e38eeec4e') in 0.079454 seconds 
+  Import took 0.082878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Toon Furniture/Models/BookCase_2.fbx
+  artifactKey: Guid(aa588f75104cb8042acf31263cd73619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/BookCase_2.fbx using Guid(aa588f75104cb8042acf31263cd73619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d1860dca1cff19e8878291cd13f313') in 0.033471 seconds 
+  Import took 0.036877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Toon Furniture/Models/Pillows_1.fbx
+  artifactKey: Guid(bc7c26d9e5732fb4e9694d56f647dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Pillows_1.fbx using Guid(bc7c26d9e5732fb4e9694d56f647dd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3af2a5594f38cfcb7aa000eaa9301f6') in 0.042674 seconds 
+  Import took 0.045759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Chips.fbx
+  artifactKey: Guid(81fb6a5c67691cd46a393190b476ed51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Chips.fbx using Guid(81fb6a5c67691cd46a393190b476ed51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7b74c620843a4093ae66e2b3fd4516') in 0.047702 seconds 
+  Import took 0.050756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Toon Furniture/Models/Cooker_1.fbx
+  artifactKey: Guid(94cd5fa7d84e65045b1ab6e8fc78c044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Cooker_1.fbx using Guid(94cd5fa7d84e65045b1ab6e8fc78c044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80937a2e0ae2b6501b8242a66a146f2e') in 0.030830 seconds 
+  Import took 0.034298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Food Pack Mixed/Materials/BlackPepper.mat
+  artifactKey: Guid(a29399a5bd48b7b49932da5a0f38da2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/BlackPepper.mat using Guid(a29399a5bd48b7b49932da5a0f38da2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d1b00b006d6d9896f48328be3d90ea') in 0.035804 seconds 
+  Import took 0.040148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Toon Furniture/Materials/CoffeTable_1.mat
+  artifactKey: Guid(8137a4b9e7fd60340a30656d9c24feb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/CoffeTable_1.mat using Guid(8137a4b9e7fd60340a30656d9c24feb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b371039421965ee93362040fd78638') in 0.033285 seconds 
+  Import took 0.037521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Food Pack Mixed/Materials/BeefSlice.mat
+  artifactKey: Guid(1feb4e4a9952ad44ba959a9b82786b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/BeefSlice.mat using Guid(1feb4e4a9952ad44ba959a9b82786b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedd6b451ff698de91a32b83f7cfd249') in 0.053628 seconds 
+  Import took 0.058634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Butter.fbx
+  artifactKey: Guid(5b809b89bbc8ca042a08ae9838e40440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Butter.fbx using Guid(5b809b89bbc8ca042a08ae9838e40440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3307bc1cddd8493fbaaef59b781ad76d') in 0.058251 seconds 
+  Import took 0.061543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Food Pack Mixed/Materials/BeerBottle.mat
+  artifactKey: Guid(72cb50f89354da94c8aaa1dc70cbccbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/BeerBottle.mat using Guid(72cb50f89354da94c8aaa1dc70cbccbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9704c3c4c4faab87ed3f85306fa9927a') in 0.031601 seconds 
+  Import took 0.034378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Food Pack Mixed/Materials/CocoaPowder.mat
+  artifactKey: Guid(8386e6a1c83781849a84a57cd0b97bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Materials/CocoaPowder.mat using Guid(8386e6a1c83781849a84a57cd0b97bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a9f31eb704c956a69bf2eaf4f801a1') in 0.032114 seconds 
+  Import took 0.035835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Toon Furniture/Models/Materials/Couch_3_1.mat
+  artifactKey: Guid(2359120a51adcf14582ed92a7def1661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Materials/Couch_3_1.mat using Guid(2359120a51adcf14582ed92a7def1661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31ffde09d6f4baa486fb1cdc7228f9f') in 0.017470 seconds 
+  Import took 0.021287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Food Pack Mixed/Meshes/egg.fbx
+  artifactKey: Guid(084398d3f40187c479efecb7761d261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/egg.fbx using Guid(084398d3f40187c479efecb7761d261f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd17596e2feb61ed1f3f9759fa247cb') in 0.058524 seconds 
+  Import took 0.061925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Food Pack Mixed/Meshes/Lemons.fbx
+  artifactKey: Guid(2609e04b9a424e34b843c616fa9b0b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Food Pack Mixed/Meshes/Lemons.fbx using Guid(2609e04b9a424e34b843c616fa9b0b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ade6e30c79a2ecd26421f2425ab5f98') in 0.071599 seconds 
+  Import took 0.074854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Clipboard/Meshes/ClipBoard.fbx
+  artifactKey: Guid(da1d9f4dc2a121747a3c82d392f61812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Clipboard/Meshes/ClipBoard.fbx using Guid(da1d9f4dc2a121747a3c82d392f61812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0363d2ffa41f05f66544052ca6738fa5') in 0.064143 seconds 
+  Import took 0.070042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Toon Furniture/Materials/Counter_2_1.mat
+  artifactKey: Guid(2243660480402134dbf8912dc933d4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Materials/Counter_2_1.mat using Guid(2243660480402134dbf8912dc933d4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb089e2ad355350c66f647508a9736d5') in 0.020818 seconds 
+  Import took 0.024592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Toon Furniture/Models/Chair_5.fbx
+  artifactKey: Guid(57715435b4fec704fa35cec6763c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_5.fbx using Guid(57715435b4fec704fa35cec6763c28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bd0c9d06084bdeefa4d5f22eb7ef62') in 0.034570 seconds 
+  Import took 0.038852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Toon Furniture/Models/BookCase_1.fbx
+  artifactKey: Guid(0989d878ef2d74c44b4c7ac19551ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/BookCase_1.fbx using Guid(0989d878ef2d74c44b4c7ac19551ff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6981d8348c0f99803c86305f36ef20b') in 0.033187 seconds 
+  Import took 0.036471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Toon Furniture/Models/Chair_3.fbx
+  artifactKey: Guid(56143fa81708d6647bc92eab52aa58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon Furniture/Models/Chair_3.fbx using Guid(56143fa81708d6647bc92eab52aa58e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7239714775a69a5d52a3048ce6f19ed6') in 0.035324 seconds 
+  Import took 0.038268 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005781 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.428 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1429ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1189ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (400ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.8 MB.
+System memory in use after: 74.9 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1924.
+Total: 5.597600 ms (FindLiveObjects: 0.189200 ms CreateObjectMapping: 0.565700 ms MarkObjects: 4.780800 ms  DeleteObjects: 0.059300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1755.901784 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07109b19890e91aebb45f82e08246a40') in 0.026052 seconds 
+  Import took 0.030205 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
