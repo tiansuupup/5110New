@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Update : MonoBehaviour
 {   
-    //get doors collider
-    public 
-
+    //3 different item groups
+    public GameObject itemGroup1;
+    public GameObject itemGroup2;
+    public GameObject itemGroup3;
+    
     //check passes
     private bool door1;
     private bool door2;
@@ -29,37 +31,81 @@ public class Update : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void UpdateEnvironment()
     {   
-        //check each door
-        
-        //if pass all doors, loop changes
-        checkLoop();
+        // if(loop < 4)
+        // {
+            //if pass all doors, loop changes
+            checkLoop();
 
-        //items will change based on loop number & set door to false
-        updateScene();
+            //items will change based on loop number & set door to false
+            updateScene();
+        // }
     }
 
-    void OnTriggerEnter(Collider collider)
-    {
-        if(other.CompareTag("Player")
+    void OnTriggerEnter(Collider other)
+    {   
+        //odd numbers to true, even number to false
+
+        // door1
+        if(other.gameObject.name == "Cube_ 1")
         {
-            door1 = true;
+            if(door1 == false)
+            {
+                door1 = true;
+                Debug.Log("Door 1 passed");
+            }else{
+                door1 = false;
+            }
         }
+        
+        //door2
+        if(other.gameObject.name == "Cube_ 2")
+        {
+            if(door2 == false)
+            {
+                door2 = true;
+            }else{
+                door2 = false;
+            }
+        }
+
+        //door3
+        if(other.gameObject.name == "Cube_3")
+        {
+            if(door3 == false)
+            {
+                door3 = true;
+            }else{
+                door3 = false;
+            }
+        }
+        
+        //door4
+        if(other.gameObject.name == "Cube_4")
+        {
+            if(door4 == false)
+            {
+                door4 = true;
+            }else{
+                door4 = false;
+            }
+        }
+        
     }
 
     void checkLoop()
     {   
-
         if(door1 == true && door2 == true && door3 == true && door4 == true)    //not perfect if statements
         {
+
             loop++;
+            Debug.Log(loop);
 
             door1 = false;
             door2 = false;
             door3 = false;
             door4 = false;
-
         }
     }    
 
@@ -67,17 +113,23 @@ public class Update : MonoBehaviour
     {
         if(loop == 1)
         {
-            
+            itemGroup1.SetActive(true);
+            itemGroup2.SetActive(false);
+            itemGroup3.SetActive(false);
         }
 
         if(loop == 2)
         {
-
+            itemGroup1.SetActive(false);
+            itemGroup2.SetActive(true);
+            itemGroup3.SetActive(false);
         }
 
         if(loop == 3)
         {
-
+            itemGroup1.SetActive(false);
+            itemGroup2.SetActive(false);
+            itemGroup3.SetActive(true);
         }
 
     }

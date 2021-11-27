@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Selectable
   - Door
+  - doorCollider
   layers:
   - Default
   - TransparentFX
