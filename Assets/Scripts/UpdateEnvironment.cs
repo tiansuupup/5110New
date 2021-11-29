@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Update : MonoBehaviour
+public class UpdateEnvironment : MonoBehaviour
 {   
     //3 different item groups
     public GameObject itemGroup1;
@@ -27,11 +27,11 @@ public class Update : MonoBehaviour
         door3 = false;
         door4 = false;
 
-        loop = 1;
+        loop = 0;
     }
 
     // Update is called once per frame
-    void UpdateEnvironment()
+    void Update()
     {   
         // if(loop < 4)
         // {
@@ -65,6 +65,7 @@ public class Update : MonoBehaviour
             if(door2 == false)
             {
                 door2 = true;
+                Debug.Log("Door 2 passed");
             }else{
                 door2 = false;
             }
@@ -76,6 +77,7 @@ public class Update : MonoBehaviour
             if(door3 == false)
             {
                 door3 = true;
+                Debug.Log("Door 3 passed");
             }else{
                 door3 = false;
             }
@@ -87,6 +89,7 @@ public class Update : MonoBehaviour
             if(door4 == false)
             {
                 door4 = true;
+                Debug.Log("Door 4 passed");
             }else{
                 door4 = false;
             }
