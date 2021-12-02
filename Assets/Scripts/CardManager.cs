@@ -26,7 +26,10 @@ public class CardManager : MonoBehaviour
 
     
     
-   
+   void Awake()
+    {
+        
+    }
     
     void Start()
     {

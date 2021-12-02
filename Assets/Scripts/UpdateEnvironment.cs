@@ -44,16 +44,27 @@ public class UpdateEnvironment : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other)
-    {   
+    {
         //odd numbers to true, even number to false
-
+        if (other.gameObject.name == "Cube_4")
+        {
+            if (door4 == false)
+            {
+                door4 = true;
+                Debug.Log("Door 1 passed");
+            }
+            else
+            {
+                door4 = false;
+            }
+        }
         // door1
-        if(other.gameObject.name == "Cube_ 1")
+        if (other.gameObject.name == "Cube_ 1")
         {
             if(door1 == false)
             {
                 door1 = true;
-                Debug.Log("Door 1 passed");
+                Debug.Log("Door 2 passed");
             }else{
                 door1 = false;
             }
@@ -65,7 +76,7 @@ public class UpdateEnvironment : MonoBehaviour
             if(door2 == false)
             {
                 door2 = true;
-                Debug.Log("Door 2 passed");
+                Debug.Log("Door 3 passed");
             }else{
                 door2 = false;
             }
@@ -77,23 +88,14 @@ public class UpdateEnvironment : MonoBehaviour
             if(door3 == false)
             {
                 door3 = true;
-                Debug.Log("Door 3 passed");
+                Debug.Log("Door 4 passed");
             }else{
                 door3 = false;
             }
         }
         
         //door4
-        if(other.gameObject.name == "Cube_4")
-        {
-            if(door4 == false)
-            {
-                door4 = true;
-                Debug.Log("Door 4 passed");
-            }else{
-                door4 = false;
-            }
-        }
+       
         
     }
 
