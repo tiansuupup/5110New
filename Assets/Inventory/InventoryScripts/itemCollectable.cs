@@ -8,6 +8,7 @@ public class itemCollectable : MonoBehaviour
     public Item thisItem;
     public Text playerText;
     public Inventory playerInventory;
+    public GameObject itemTable;
     private bool canPickup = false;
 
 
@@ -20,6 +21,7 @@ public class itemCollectable : MonoBehaviour
                 playerText.text = "";
                 AddNewItem();
                 Destroy(gameObject);
+                itemTable.GetComponent<showitems>().ShowMore();
 
             }
         }

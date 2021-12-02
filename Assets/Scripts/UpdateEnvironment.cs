@@ -16,7 +16,7 @@ public class UpdateEnvironment : MonoBehaviour
     private bool door4;
 
     //items will change based on loop
-    private int loop;
+    public int loop;
 
     // Start is called before the first frame update
     void Start()

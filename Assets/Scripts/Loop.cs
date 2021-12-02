@@ -5,9 +5,7 @@ using UnityEngine;
 public class Loop : MonoBehaviour
 {   
     //3 different item groups
-    public GameObject itemGroup1;
-    public GameObject itemGroup2;
-    public GameObject itemGroup3;
+
     
     //check passes
     private bool door1;
@@ -16,8 +14,8 @@ public class Loop : MonoBehaviour
     private bool door4;
 
     //items will change based on loop
-    private int loop;
-
+    public int loop;
+    
     // Start is called before the first frame update
     void Start()
     {   
@@ -46,16 +44,30 @@ public class Loop : MonoBehaviour
     }
 
     void OnTriggerEnter(Collider other)
-    {   
+    {
         //odd numbers to true, even number to false
 
         // door1
-        if(other.gameObject.name == "Cube_1")
+
+        if (other.gameObject.name == "Cube_4")
+        {
+            if (door4 == false)
+            {
+                door4 = true;
+                Debug.Log("Door 1 passed");
+            }
+            else
+            {
+                door4 = false;
+            }
+        }
+
+        if (other.gameObject.name == "Cube_1")
         {
             if(door1 == false)
             {
                 door1 = true;
-                Debug.Log("Door 1 passed");
+                Debug.Log("Door 2 passed");
             }else{
                 door1 = false;
             }
@@ -67,7 +79,7 @@ public class Loop : MonoBehaviour
             if(door2 == false)
             {
                 door2 = true;
-                Debug.Log("Door 2 passed");
+                Debug.Log("Door 3 passed");
             }else{
                 door2 = false;
             }
@@ -79,23 +91,14 @@ public class Loop : MonoBehaviour
             if(door3 == false)
             {
                 door3 = true;
-                Debug.Log("Door 3 passed");
+                Debug.Log("Door 4 passed");
             }else{
                 door3 = false;
             }
         }
         
         //door4
-        if(other.gameObject.name == "Cube_4")
-        {
-            if(door4 == false)
-            {
-                door4 = true;
-                Debug.Log("Door 4 passed");
-            }else{
-                door4 = false;
-            }
-        }
+        
         
     }
 
@@ -119,25 +122,23 @@ public class Loop : MonoBehaviour
 
     void updateScene()
     {
-        if(loop == 1)
+        if(loop == 0)
         {
-            itemGroup1.SetActive(true);
-            itemGroup2.SetActive(false);
-            itemGroup3.SetActive(false);
+            
+
         }
 
-        if(loop == 2)
+        if(loop == 1)
         {
-            itemGroup1.SetActive(false);
-            itemGroup2.SetActive(true);
-            itemGroup3.SetActive(false);
+
+            
+
         }
 
         if(loop == 3)
         {
-            itemGroup1.SetActive(false);
-            itemGroup2.SetActive(false);
-            itemGroup3.SetActive(true);
+
+            
         }
 
     }

@@ -10,6 +10,12 @@ public class StartCardMatching : MonoBehaviour
 
     public Text playerText;
     public bool enteredArea = false;
+    public int loopnum = 0;
+
+    void Start()
+    {
+
+    }
     void Update()
     {
         if (enteredArea == true)
@@ -26,8 +32,10 @@ public class StartCardMatching : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-
-        if (other.gameObject.CompareTag("Player"))
+        GameObject go = GameObject.FindGameObjectWithTag("Player");
+        Loop curloop = go.GetComponent<Loop>();
+        int loopnum = curloop.loop;
+        if (other.gameObject.CompareTag("Player") && loopnum == 2)
         {
             playerText.text = "Press E to remember";
             enteredArea = true;
