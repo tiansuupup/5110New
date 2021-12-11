@@ -4,22 +4,25 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Selectable
-  - Door
+  - InspectPoint
+  - ExaminePoint
+  - ItemName
   - doorCollider
+  - Door
+  - Pickup
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - PostProcessing
+  - 
   - Water
   - UI
-  - Objects
   - 
   - 
-  - 
-  - 
-  - 
+  - PostProcessing
+  - ExamineLayer
+  - InspectPointLayer
+  - Interact
   - 
   - 
   - 
