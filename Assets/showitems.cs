@@ -9,7 +9,7 @@ public class showitems : MonoBehaviour
     public GameObject itemGroup3;
 
     public GameObject[] tableitems;
-    private int i = 0;
+    public int i = 0;
     void Start()
     {
         
