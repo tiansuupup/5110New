@@ -59,8 +59,12 @@ public class itemInspect : MonoBehaviour
             float xAxis = Input.GetAxis("Mouse X") * rotateSpeed;
             float yAxis = Input.GetAxis("Mouse Y") * rotateSpeed;
 
+            Debug.Log( "clickedObject.transform: "+  clickedObject.transform );
+
             clickedObject.transform.Rotate(Vector3.up, -xAxis, Space.World);
             clickedObject.transform.Rotate(Vector3.right, yAxis, Space.World);
+
+            Debug.Log( "after rotate: " + clickedObject.transform );
         }
     }
 
