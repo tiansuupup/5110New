@@ -6,8 +6,9 @@ using UnityEngine.SceneManagement;
 public class HotKeys : MonoBehaviour
 {
 
+ 
     public GameObject pauseMenu;
-    public GameObject FPS;
+    
     
     bool menuOpened = false;
     // Start is called before the first frame update
@@ -45,7 +46,10 @@ public class HotKeys : MonoBehaviour
 
     public void Resume()
     {
+        
+
         Time.timeScale = 1f;
+        Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
 
         pauseMenu.SetActive(false);
@@ -55,6 +59,8 @@ public class HotKeys : MonoBehaviour
 
     void Pause()
     {
+
+        Cursor.visible = true;
         Time.timeScale = 0f;
         Cursor.lockState = CursorLockMode.None;
 

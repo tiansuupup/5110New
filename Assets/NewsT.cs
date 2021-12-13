@@ -41,6 +41,11 @@ public class NewsT : MonoBehaviour
     }
     void OnTriggerExit(Collider other)
     {
+        if (other.gameObject.CompareTag("Player") && readNews == false)
+        {
+
+            PlayerText.text = "";
+        }
 
         if (other.gameObject.CompareTag("Player") && readNews == true)
         {
