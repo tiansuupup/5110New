@@ -10,6 +10,8 @@ TagManager:
   - doorCollider
   - Door
   - Pickup
+  - PickUp
+  - Progress
   layers:
   - Default
   - TransparentFX

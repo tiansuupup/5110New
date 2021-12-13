@@ -114,6 +114,8 @@ namespace ExamineSystem
 
         void Update()
         {
+
+
             if (canRotate)
             {
                 float h = horizontalSpeed * Input.GetAxis(mouseX);

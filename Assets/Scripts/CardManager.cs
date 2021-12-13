@@ -7,7 +7,7 @@ public class CardManager : MonoBehaviour
 
     public Transform[] CardPoints; //Create the positions
     public GameObject[] Cards; //load all the cards
-
+    public GameObject End;
     public bool isComparing = false;
 
 
@@ -28,7 +28,7 @@ public class CardManager : MonoBehaviour
     
    void Awake()
     {
-        
+        Cursor.lockState = CursorLockMode.None;
     }
     
     void Start()
@@ -41,6 +41,11 @@ public class CardManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (matchedCards == 6)
+        {
+            mousediable.GetComponent<BoxCollider>().enabled = true;
+            End.SetActive(true);
+        }
         if (UpCards == 2 && isComparing == false)
         {
             mousediable.GetComponent<BoxCollider>().enabled = true;
@@ -75,14 +80,15 @@ public class CardManager : MonoBehaviour
             if (CardName1 == "Card1" || CardName2 == "Card1")                   //If the cardname match, play the certain audio. 
             {
 
+                matchedCards++;
 
-                 
+
                 audioPlay.PlayOneShot(audioClips[4]);
                 yield return new WaitForSeconds(audioClips[4].length);          //WaitForSeconds of the length of the clip
             }
             if (CardName1 == "Card3" || CardName2 == "Card3")
             {
-
+                matchedCards++;
                 audioPlay.PlayOneShot(audioClips[5]);
                 yield return new WaitForSeconds(audioClips[5].length);
                 audioPlay.PlayOneShot(audioClips[6]);
@@ -91,31 +97,30 @@ public class CardManager : MonoBehaviour
             }
             if (CardName1 == "Card5" || CardName2 == "Card5")
             {
-
+                matchedCards++;
                 audioPlay.PlayOneShot(audioClips[7]);
                 yield return new WaitForSeconds(audioClips[7].length);
             }
             if (CardName1 == "Card7" || CardName2 == "Card7")
             {
-
+                matchedCards++;
                 audioPlay.PlayOneShot(audioClips[8]);
                 yield return new WaitForSeconds(audioClips[8].length);
 
             }
             if (CardName1 == "Card9" || CardName2 == "Card9")
             {
-
+                matchedCards++;
                 audioPlay.PlayOneShot(audioClips[9]);
                 yield return new WaitForSeconds(audioClips[9].length);
 
             }
             if (CardName1 == "Card11" || CardName2 == "Card11")
             {
-
+                matchedCards++;
                 audioPlay.PlayOneShot(audioClips[10]);
                 yield return new WaitForSeconds(audioClips[10].length);
-                audioPlay.PlayOneShot(audioClips[11]);
-                yield return new WaitForSeconds(audioClips[11].length);
+;
 
             }
 

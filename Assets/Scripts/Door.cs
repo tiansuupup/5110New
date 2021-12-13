@@ -23,18 +23,21 @@ public class Door : MonoBehaviour
 
     void OnTriggerEnter( Collider other )
     {
+        if (!enabled) return;
         anim.SetBool( "opened", true );
 
     }
 
     void OnTriggerExit( Collider other )
     {
+        if (!enabled) return;
         anim.enabled = true;
         anim.SetBool( "opened", false );
     }
 
     void PauseAnimation()
     {
+        if (!enabled) return;
         anim.enabled = false;
     }
 }

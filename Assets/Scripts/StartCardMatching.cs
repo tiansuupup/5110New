@@ -11,10 +11,11 @@ public class StartCardMatching : MonoBehaviour
     public Text playerText;
     public bool enteredArea = false;
     public int loopnum = 0;
+    public GameObject PlayerProgress;
 
     void Start()
     {
-
+        
     }
     void Update()
     {
@@ -35,7 +36,7 @@ public class StartCardMatching : MonoBehaviour
         GameObject go = GameObject.FindGameObjectWithTag("Player");
         Loop curloop = go.GetComponent<Loop>();
         int loopnum = curloop.loop;
-        if (other.gameObject.CompareTag("Player") && loopnum == 2)
+        if (other.gameObject.CompareTag("Player") && PlayerProgress.GetComponent<Progress>().progressPoint == 6)
         {
             playerText.text = "Press E to remember";
             enteredArea = true;

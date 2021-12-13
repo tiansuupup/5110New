@@ -27,6 +27,7 @@ public class FirstPersonLook : MonoBehaviour
     {
         if (Time.deltaTime == 0)
         {
+            
             return;
         }
         else

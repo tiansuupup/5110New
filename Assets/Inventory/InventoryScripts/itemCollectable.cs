@@ -29,7 +29,7 @@ public class itemCollectable : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && GameObject.Find("Basic_Examine_UI") == null)
         {
             playerText.text = "Press E to collect";
             canPickup = true;
