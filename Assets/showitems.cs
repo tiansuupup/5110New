@@ -7,7 +7,7 @@ public class showitems : MonoBehaviour
     public GameObject itemGroup1;
     public GameObject itemGroup2;
     public GameObject itemGroup3;
-    public GameObject Player;
+    
     public GameObject[] tableitems;
     public int i = 0;
     void Start()

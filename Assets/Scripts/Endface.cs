@@ -34,7 +34,8 @@ public class Endface : MonoBehaviour {
             tempColor.a = alpha;
             rawImg.color = tempColor;
 
-            yield return new WaitForSeconds( 0 );
+            yield return new WaitForSeconds(5);
+            Application.Quit();
         }
 
     }
